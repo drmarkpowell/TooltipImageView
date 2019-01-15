@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C65780D56265E0EA5B0DD96 /* Pods_TooltipImageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867A1FF5FDEA7F6F66FDA1E8 /* Pods_TooltipImageView_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C08A2C643E1A4865CD6EADA0 /* Pods_TooltipImageView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0063EAEAFC431AB5C278BE9E /* Pods_TooltipImageView_Example.framework */; };
-		FC6EB265A084C45C20C27ED7 /* Pods_TooltipImageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0717CA1B18C8E41E9629B7 /* Pods_TooltipImageView_Tests.framework */; };
+		C31F484A65E6C5E8789CD5DF /* Pods_TooltipImageView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4E5A348007903F38B04390 /* Pods_TooltipImageView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0063EAEAFC431AB5C278BE9E /* Pods_TooltipImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TooltipImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		449254E329F7242C92628073 /* Pods-TooltipImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooltipImageView_Example.debug.xcconfig"; path = "Target Support Files/Pods-TooltipImageView_Example/Pods-TooltipImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08E7B10D1451AFA40B38D743 /* Pods-TooltipImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooltipImageView_Example.debug.xcconfig"; path = "Target Support Files/Pods-TooltipImageView_Example/Pods-TooltipImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2981DF8EF41CEBA4E0080351 /* Pods-TooltipImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooltipImageView_Example.release.xcconfig"; path = "Target Support Files/Pods-TooltipImageView_Example/Pods-TooltipImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TooltipImageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TooltipImageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* TooltipImageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooltipImageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E2CDD5148C6904C9118A791 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		7A0717CA1B18C8E41E9629B7 /* Pods_TooltipImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TooltipImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		884D7DF66EDBBA88B8D3CABC /* Pods-TooltipImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooltipImageView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TooltipImageView_Tests/Pods-TooltipImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		994C43ABC70C6691D2D2E1BB /* Pods-TooltipImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooltipImageView_Tests.release.xcconfig"; path = "Target Support Files/Pods-TooltipImageView_Tests/Pods-TooltipImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C91A3B417A3CDA6A2C4FDCD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D070136726789C5A866F17B7 /* TooltipImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TooltipImageView.podspec; path = ../TooltipImageView.podspec; sourceTree = "<group>"; };
-		EED44CE9721EEEEDDFADDB02 /* Pods-TooltipImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooltipImageView_Example.release.xcconfig"; path = "Target Support Files/Pods-TooltipImageView_Example/Pods-TooltipImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6E2CDD5148C6904C9118A791 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		867A1FF5FDEA7F6F66FDA1E8 /* Pods_TooltipImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TooltipImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FFC6871785D067D52C4D2C /* Pods-TooltipImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooltipImageView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TooltipImageView_Tests/Pods-TooltipImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5A10118536E7487AAD7E2E /* Pods-TooltipImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooltipImageView_Tests.release.xcconfig"; path = "Target Support Files/Pods-TooltipImageView_Tests/Pods-TooltipImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C91A3B417A3CDA6A2C4FDCD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D070136726789C5A866F17B7 /* TooltipImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TooltipImageView.podspec; path = ../TooltipImageView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE4E5A348007903F38B04390 /* Pods_TooltipImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TooltipImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08A2C643E1A4865CD6EADA0 /* Pods_TooltipImageView_Example.framework in Frameworks */,
+				C31F484A65E6C5E8789CD5DF /* Pods_TooltipImageView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,22 +62,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC6EB265A084C45C20C27ED7 /* Pods_TooltipImageView_Tests.framework in Frameworks */,
+				5C65780D56265E0EA5B0DD96 /* Pods_TooltipImageView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FE126320379E3F2611453D0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0063EAEAFC431AB5C278BE9E /* Pods_TooltipImageView_Example.framework */,
-				7A0717CA1B18C8E41E9629B7 /* Pods_TooltipImageView_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +77,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				FC9840F19BAEDA80A4742625 /* Pods */,
-				2FE126320379E3F2611453D0 /* Frameworks */,
+				A0199DE61A77357FC99A5131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,15 +139,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		A0199DE61A77357FC99A5131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE4E5A348007903F38B04390 /* Pods_TooltipImageView_Example.framework */,
+				867A1FF5FDEA7F6F66FDA1E8 /* Pods_TooltipImageView_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC9840F19BAEDA80A4742625 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				449254E329F7242C92628073 /* Pods-TooltipImageView_Example.debug.xcconfig */,
-				EED44CE9721EEEEDDFADDB02 /* Pods-TooltipImageView_Example.release.xcconfig */,
-				884D7DF66EDBBA88B8D3CABC /* Pods-TooltipImageView_Tests.debug.xcconfig */,
-				994C43ABC70C6691D2D2E1BB /* Pods-TooltipImageView_Tests.release.xcconfig */,
+				08E7B10D1451AFA40B38D743 /* Pods-TooltipImageView_Example.debug.xcconfig */,
+				2981DF8EF41CEBA4E0080351 /* Pods-TooltipImageView_Example.release.xcconfig */,
+				91FFC6871785D067D52C4D2C /* Pods-TooltipImageView_Tests.debug.xcconfig */,
+				BA5A10118536E7487AAD7E2E /* Pods-TooltipImageView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -167,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TooltipImageView_Example" */;
 			buildPhases = (
-				6F0A4AB03F6FD7F45D5BDF91 /* [CP] Check Pods Manifest.lock */,
+				8B0ED67185D98D0BB7F37F97 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				79858B486A048C75FC580FE4 /* [CP] Embed Pods Frameworks */,
+				B571FAD08BACB6CB62623B49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,11 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TooltipImageView_Tests" */;
 			buildPhases = (
-				309990F90282371FEC2CBDD4 /* [CP] Check Pods Manifest.lock */,
+				D0D43F12F075A638588592F0 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				3ACAB52F06C2BFAF59AF2F84 /* [CP] Embed Pods Frameworks */,
+				570B5DD9F5A808CDD1875CA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,7 +208,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -263,29 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		309990F90282371FEC2CBDD4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TooltipImageView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3ACAB52F06C2BFAF59AF2F84 /* [CP] Embed Pods Frameworks */ = {
+		570B5DD9F5A808CDD1875CA8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,7 +286,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TooltipImageView_Tests/Pods-TooltipImageView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F0A4AB03F6FD7F45D5BDF91 /* [CP] Check Pods Manifest.lock */ = {
+		8B0ED67185D98D0BB7F37F97 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,7 +308,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		79858B486A048C75FC580FE4 /* [CP] Embed Pods Frameworks */ = {
+		B571FAD08BACB6CB62623B49 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,17 +317,41 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TooltipImageView_Example/Pods-TooltipImageView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/TooltipImageView/TooltipImageView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TooltipImageView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TooltipImageView_Example/Pods-TooltipImageView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D43F12F075A638588592F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TooltipImageView_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -415,12 +416,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -448,11 +451,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -468,12 +472,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -494,17 +500,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 449254E329F7242C92628073 /* Pods-TooltipImageView_Example.debug.xcconfig */;
+			baseConfigurationReference = 08E7B10D1451AFA40B38D743 /* Pods-TooltipImageView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TooltipImageView/Info.plist;
@@ -513,13 +520,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED44CE9721EEEEDDFADDB02 /* Pods-TooltipImageView_Example.release.xcconfig */;
+			baseConfigurationReference = 2981DF8EF41CEBA4E0080351 /* Pods-TooltipImageView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TooltipImageView/Info.plist;
@@ -528,13 +535,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 884D7DF66EDBBA88B8D3CABC /* Pods-TooltipImageView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 91FFC6871785D067D52C4D2C /* Pods-TooltipImageView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -549,14 +556,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TooltipImageView_Example.app/TooltipImageView_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 994C43ABC70C6691D2D2E1BB /* Pods-TooltipImageView_Tests.release.xcconfig */;
+			baseConfigurationReference = BA5A10118536E7487AAD7E2E /* Pods-TooltipImageView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -567,7 +574,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TooltipImageView_Example.app/TooltipImageView_Example";
 			};
 			name = Release;
