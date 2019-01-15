@@ -1,0 +1,6 @@
+framework module Pods_TooltipImageView_Tests {
+  umbrella header "Pods-TooltipImageView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

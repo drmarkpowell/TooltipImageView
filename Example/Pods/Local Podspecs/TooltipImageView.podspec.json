@@ -1,0 +1,28 @@
+{
+  "name": "TooltipImageView",
+  "version": "0.1.0",
+  "summary": "A UIImageView that displays a Toast message when you tap it.",
+  "description": "A UIImageView that displays a Toast message when you tap it.",
+  "homepage": "https://github.com/drmarkpowell/TooltipImageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "drmarkpowell": "Mark.Powell@jpl.nasa.gov"
+  },
+  "source": {
+    "git": "https://github.com/drmarkpowell/TooltipImageView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TooltipImageView/Classes/**/*",
+  "resources": "TooltipImageView/Assets/**/*.{xcassets,png,xib}",
+  "dependencies": {
+    "Toast-Swift": [
+      "~> 4"
+    ]
+  }
+}

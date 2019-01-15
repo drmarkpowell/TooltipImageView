@@ -1,0 +1,6 @@
+framework module TooltipImageView {
+  umbrella header "TooltipImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
