@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TooltipImageView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A UIImageView that displays a Toast message when you tap it.'
   
   s.description      = <<-DESC
@@ -19,5 +19,5 @@ A UIImageView that displays a Toast message when you tap it.
   s.source_files = 'TooltipImageView/Classes/**/*'
   s.resources = 'TooltipImageView/Assets/**/*.{xcassets,png,xib}'
 
-  s.dependency 'Toast-Swift', '~> 4'
+  s.dependency 'Toast-Swift', '~> 5'
 end
