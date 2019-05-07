@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TooltipImageView'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A UIImageView that displays a Toast message when you tap it.'
   
   s.description      = <<-DESC

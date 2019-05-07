@@ -14,24 +14,24 @@ import Toast_Swift
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var imageView: UIImageView!
     
-    @IBInspectable public var tooltipText: String?
-    @IBInspectable public var image: UIImage? {
+    @IBInspectable public var tooltipText = ""
+    @IBInspectable public var image = UIImage() {
         didSet {
             imageView.image = image
         }
     }
     
-    public required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         loadViewFromNib()
     }
     
-    public override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         loadViewFromNib()
     }
     
-    public override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         loadViewFromNib()
     }
@@ -47,8 +47,8 @@ import Toast_Swift
         }
     }
     
-    @IBAction func showTooltip(_ sender: UITapGestureRecognizer) {
-        if let tooltipText = self.tooltipText {
+    @IBAction public func showTooltip(_ sender: UITapGestureRecognizer) {
+        if !tooltipText.isEmpty {
             UIApplication.topViewController()?.view.makeToast(tooltipText, duration: 3.0, position: .top, title: nil, image: nil, completion: nil)
         }
     }

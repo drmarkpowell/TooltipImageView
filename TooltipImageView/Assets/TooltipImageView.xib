@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -21,7 +20,7 @@
             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sdm-DM-S89">
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flight_hw" translatesAutoresizingMaskIntoConstraints="NO" id="sdm-DM-S89">
                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                     <gestureRecognizers/>
                     <connections>
@@ -31,13 +30,12 @@
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="sdm-DM-S89" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="C9v-Xd-nnt"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="sdm-DM-S89" secondAttribute="bottom" id="UQy-HN-g6h"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="sdm-DM-S89" secondAttribute="trailing" id="kbJ-y4-xpc"/>
-                <constraint firstItem="sdm-DM-S89" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="x87-cJ-00f"/>
+                <constraint firstItem="sdm-DM-S89" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C9v-Xd-nnt"/>
+                <constraint firstAttribute="bottom" secondItem="sdm-DM-S89" secondAttribute="bottom" id="UQy-HN-g6h"/>
+                <constraint firstAttribute="trailing" secondItem="sdm-DM-S89" secondAttribute="trailing" id="kbJ-y4-xpc"/>
+                <constraint firstItem="sdm-DM-S89" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="x87-cJ-00f"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="30.399999999999999" y="-35.082458770614693"/>
         </view>
         <tapGestureRecognizer id="XH2-JV-ymT">
@@ -46,4 +44,7 @@
             </connections>
         </tapGestureRecognizer>
     </objects>
+    <resources>
+        <image name="flight_hw" width="128" height="128"/>
+    </resources>
 </document>
