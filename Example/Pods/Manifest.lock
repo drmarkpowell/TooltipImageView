@@ -1,17 +1,17 @@
 PODS:
-  - Nimble (8.0.1)
-  - Quick (2.1.0)
-  - Toast-Swift (5.0.0)
-  - TooltipImageView (0.2.0):
+  - Nimble (9.2.0)
+  - Quick (4.0.0)
+  - Toast-Swift (5.0.1)
+  - TooltipImageView (0.4.0):
     - Toast-Swift (~> 5)
 
 DEPENDENCIES:
-  - Nimble (~> 8)
-  - Quick (~> 2)
+  - Nimble (~> 9)
+  - Quick (~> 4)
   - TooltipImageView (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Nimble
     - Quick
     - Toast-Swift
@@ -21,11 +21,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
-  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
-  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
-  TooltipImageView: 6a0138ede2a3936d466f00ab03ca6ad2668aca23
+  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TooltipImageView: 1f4e1e606e35044389c27f8fa891974d8cfc1ce5
 
-PODFILE CHECKSUM: b50397e8db051e58f1979a30e014bb4aa1d5e518
+PODFILE CHECKSUM: ad93c3391a54bb5a5263a7ec437be3c598a37b6b
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.10.2

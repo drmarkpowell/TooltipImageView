@@ -1,4 +1,4 @@
-platform :ios, '10.0'
+platform :ios, '14.0'
 use_frameworks!
 
 target 'TooltipImageView_Example' do
@@ -6,20 +6,20 @@ target 'TooltipImageView_Example' do
 
   target 'TooltipImageView_Tests' do
     inherit! :search_paths
-    pod 'Quick', '~> 2'
-    pod 'Nimble', '~> 8'
+    pod 'Quick', '~> 4'
+    pod 'Nimble', '~> 9'
   end
 end
 
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 10.0
-        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
-      end
-      unless config.build_settings['LD_RUNPATH_SEARCH_PATHS'].nil?
-        config.build_settings['LD_RUNPATH_SEARCH_PATHS'] << ' $(FRAMEWORK_SEARCH_PATHS)'
-      end
-    end
-  end
-end
+#post_install do |installer|
+#  installer.pods_project.targets.each do |target|
+#    target.build_configurations.each do |config|
+#      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 10.0
+#        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
+#      end
+#      unless config.build_settings['LD_RUNPATH_SEARCH_PATHS'].nil?
+#        config.build_settings['LD_RUNPATH_SEARCH_PATHS'] << ' $(FRAMEWORK_SEARCH_PATHS)'
+#      end
+#    end
+#  end
+#end
